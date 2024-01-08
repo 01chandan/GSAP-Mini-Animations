@@ -1,0 +1,130 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+color: white;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+.nav{
+    width: 80%;
+    height: 80px;
+    background-color: #000;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5px;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-center{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    padding: 0px 10%;
+}
+.left-part>h1{
+    font-size:70px;
+    letter-spacing: 3px;
+    font-weight: 100;
+
+}
+.image>img{
+    width: 60px;
+    height: 60px;  
+    border-radius: 50px;
+    object-fit: cover;
+    border: 5px solid #000;
+}
+.img2{
+    margin-left: -30px;
+}
+.img3{
+    margin-left: -30px;
+}
+.main-image{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.left-part{
+    height: 100%;
+    width: 100%;
+}
+.right-part{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.line{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+.other-2{
+    display: flex;
+    gap: 85px;
+    margin-top: 20px;
+}
+.div2{
+    height: 350px;
+    background-color: rgb(229, 217, 217);
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: black;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: -30px;
+}
+.left{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.info{
+    background-color: rgb(199, 194, 194);
+    text-align: center;
+    color: black;
+    margin-top: -50px;
+}

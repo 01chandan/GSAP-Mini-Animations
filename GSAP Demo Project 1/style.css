@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.wrapper{
+    padding: 2px 50px;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: #000  ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.options{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.login-options{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.login-options>button{
+    padding: 12px 20px;
+    color: black;
+    border: none;
+    border-radius: 2px;
+}
+h1 {
+    font-size: 120px;
+}
+.hero{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 130px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+.book-now{
+    background-color: #7E3936;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.hi{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+#image1{
+    height:200px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    border-radius: 10px;
+}
+#image2{
+    height:200px;
+    position: absolute;
+    left: 80%;
+    top: 35%;
+    border-radius: 10px;
+}
+#image3{
+    height:150px;
+    position: absolute;
+    left: 60%;
+    top: -1%;
+    border-radius: 10px;
+    z-index: -1;
+}
+#image4{
+    height:180px;
+    position: absolute;
+    left: 22%;
+    top: 45%;
+    border-radius: 10px;
+    z-index: -1;
+}
+.scroll{
+    position: absolute;
+    bottom: 18%;
+    left: 45%;
+    font-size: 20px;
+}
